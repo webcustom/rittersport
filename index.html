@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+	<meta charset="utf-8">
+	<!-- <base href="/"> -->
+
+	<title>Title</title>
+	<meta name="description" content=""> 
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<meta property="og:image" content="path/to/image.jpg">
+	<link rel="icon" href="img/favicon/favicon.ico" type="image/x-icon">
+	<link rel="apple-touch-icon" href="img/favicon/apple-touch-icon-180x180.png">
+	<!-- <link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png"> -->
+
+
+	<!-- Chrome, Firefox OS and Opera -->
+	<meta name="theme-color" content="#000">
+	<!-- Windows Phone -->
+	<!-- <meta name="msapplication-navbutton-color" content="#000"> -->
+	<!-- iOS Safari -->
+	<!-- <meta name="apple-mobile-web-app-status-bar-style" content="#000"> -->
+
+	<link rel="stylesheet" href="css/libs.min.css">
+	<link rel="stylesheet" href="css/main.css">
+
+	<style>.wrapper{opacity:0;}html{background-color:#fff;}</style>
+
+
+</head>
+
+<body>
+
+	
+			
+
+	<div class="wrapper">
+
+		<header class="main_header">
+			<div class="contain">
+				<div class="header_wrap_items">
+					<div class="header_logo_1">
+						<!-- <img src="img/logo.png" alt="logo"> -->
+						<img src="img/logo_text.png" alt="logo">
+					</div>
+					<nav class="header_nav">
+						<ul>
+							<li class="menu_li active"><a class="active" href="#">Участвуй</a></li>
+							<li class="menu_li"><a href="#">Полные правила</a></li>
+							<li class="menu_li"><a href="#">Призы и победители</a></li>
+						</ul>
+					</nav>
+					<div class="header_logo_2">
+						<img src="img/logo_2.png" alt="logo">
+					</div>
+
+					<div class="burger_button">
+						<div class="one"></div>
+						<div class="two"></div>
+						<div class="three"></div>
+					</div>
+
+				</div>
+			</div>
+		</header>
+
+
+		<div class="burger_menu">
+			<div class="wrap_inner_border">
+				<!-- рамка -->
+				<div class="inner_border">
+					<span class="top"></span>
+					<span class="bottom"></span>
+				</div>
+
+				<img class="close_burger" src="img/close_middle.svg" alt="close">
+				<ul class="burger_ul">
+					<li class="burger_li"><a href="#">Участвуй</a></li>
+					<li class="burger_li"><a href="#">Полные правила</a></li>
+					<li class="burger_li"><a href="#">Призы и победители</a></li>
+				</ul>
+			</div>
+			
+		</div>
+
+		<div class="body_chocolate_wrap">
+			<!-- плавающий фон  -->
+			<div class="background_choco type_1">
+				<img class="left img_1" src="img/chocolate_bg_1_1.jpg" alt="img">
+				<img class="left img_2" src="img/chocolate_bg_1_1.png" alt="img">
+				<img class="right img_1" src="img/chocolate_bg_1_2.jpg" alt="img">
+				<img class="right img_2" src="img/chocolate_bg_1_2.png" alt="img">
+			</div>
+			<div class="body_chocolate">
+				
+
+				
+<!-- ========================================= -->
+<!-- ========================================= -->
+
+
+				<!--
+				.body_chocolate_wrap, .body_chocolate
+				блоки участвующие в выравнивании .body_chocolate_inner по вертикали
+				active_block - говорит нам о том какой блок сейчас открыт на странице
+				 -->
+				<div class="test_block body_chocolate_inner active_block" id="test_block">
+					
+					<div class="content_test wrap_inner_border">
+						<!-- рамка -->
+						<div class="inner_border">
+							<span class="top"></span>
+							<span class="bottom"></span>
+						</div>
+
+						<div class="choco_item">
+							<p class="name" style="color:#006037">Extra Nut: Цельный миндаль</p>
+							<p class="desc">шоколад молочный</p>
+							<div class="choco_pack">
+								<img src="img/chocolate_1.png" alt="img">
+							</div>
+						</div>
+						<div class="test_item">
+							<p class="num">1 вопрос</p>
+							<p class="name">В Сан-Франциско множество пирсов. Один из них, пирс 39, богат необычными пассажирами. Какими?</p>
+							<div class="questions_wrap">
+								<!--
+								active - добавляется при активном элементе
+								error - добавляется если ответ ошибочный  
+								true -  подсвечивание правильного ответа когда выбран не правильный
+								active_true - добавляется когда выбран правильный ответ 
+								 -->
+								<div class="quest error">
+									<p>
+										<span>
+											<i class="fa fa-check" aria-hidden="true"></i>
+											<i class="fa fa-times" aria-hidden="true"></i>
+										</span>
+										Морские львы
+									</p>
+								</div>
+								<div class="quest">
+									<p>
+										<span>
+											<i class="fa fa-check" aria-hidden="true"></i>
+											<i class="fa fa-times" aria-hidden="true"></i>
+										</span>
+										Бродячие кошки
+									</p>
+								</div>
+								<div class="quest true">
+									<p>
+										<span>
+											<i class="fa fa-check" aria-hidden="true"></i>
+											<i class="fa fa-times" aria-hidden="true"></i>
+										</span>
+										Черепахи
+									</p>
+								</div>
+								<div class="quest active_true">
+									<p>
+										<span>
+											<i class="fa fa-check" aria-hidden="true"></i>
+											<i class="fa fa-times" aria-hidden="true"></i>
+										</span>
+										Бродячие псы
+									</p>
+								</div>
+							</div>
+							<p class="quest_alert">Неверно. Но вы прекрасный игрок!</p>
+							<!-- questions_wrap -->
+
+							<!-- 
+							для открытия нужного блока , элемент на который мы кликаем должен иметь класс show_block
+							и атрибут data-id в котором прописывается id блока который будет открыт
+							 -->
+							<button class="button_1 show_block" data-id="#autorization_block"><span>Ответить</span></button>
+						</div>
+						<!-- test_item -->
+
+						
+
+					</div>
+					<!-- item_test -->
+
+					<div class="center">
+						<a class="button_2" href="#">Вернуться к выбору вкуса</a>
+					</div>
+
+					
+				</div>
+				<!-- test_block -->
+
+
+
+
+<!-- ========================================= -->
+<!-- ========================================= -->
+
+
+				<div class="autorization_block body_chocolate_inner" id="autorization_block">
+					<!-- рамка -->
+					<div class="wrap_inner_border padding_type_1">
+						<div class="inner_border">
+							<span class="top"></span>
+							<span class="bottom"></span>
+						</div>
+
+						<p class="name_block">Пожалуйста, <span>авторизуйся</span></p>
+
+
+						<div class="checkbox_block">
+							<div class="checkbox_1_wrap">	
+								<div class="checkbox_1">
+									 <input id="package_check1" type="checkbox" name="package_check" hidden checked>
+			 						<label for="package_check1"></label>
+								</div>
+								<!-- checkbox_1 -->
+								<p class="checkbox_1_text">Я соглашаюсь с <a href="#">полными правилами</a> конкурса</p>
+							</div>
+							<!-- checkbox_1_wrap -->
+							<div class="checkbox_1_wrap">	
+								<div class="checkbox_1">
+									 <input id="package_check2" type="checkbox" name="package_check" hidden checked>
+			 						<label for="package_check2"></label>
+								</div>
+								<!-- checkbox_1 -->
+								<p class="checkbox_1_text">Согласен получать информационные рассылки, в том числе рекламные и иные материалы ООО «Телекомпания ПЯТНИЦА» и третьих лиц</p>
+							</div>
+							<!-- checkbox_1_wrap -->
+						</div>
+						<!-- checkbox_block -->
+
+						<div class="social_block">
+							<a class="social_1" href="#">
+								<i class="fa fa-vk" aria-hidden="true"></i>
+							</a>
+							<a class="social_1" href="#">
+								<i class="fa fa-facebook" aria-hidden="true"></i>
+							</a>
+							<a class="social_1" href="#">
+								<i class="fa fa-odnoklassniki" aria-hidden="true"></i>
+							</a>
+						</div>
+
+						<p class="bold_text">Или войди с помощью почты</p>
+
+						<div class="inputs_block">
+							<div class="input_wrap_1 man">
+								<input clas type="text" placeholder="Логин" name="login">
+							</div>
+							<div class="input_wrap_1 password">
+								<input clas type="text" placeholder="Пароль" name="password">
+							</div>
+						</div>
+
+						
+						<div class="center">
+							<button class="button_1"><span>Войти с помощью почты</span></button><br>
+							<a class="bold_refer" href="#">Регистрация</a>
+						</div>
+
+
+					</div>
+					<!-- wrap_inner_border -->
+					<div class="center">
+						<a class="button_2" href="#">Вернуться к выбору вкуса</a>
+					</div>
+
+
+				</div>
+				<!-- autorization_block -->
+
+
+
+<!-- ========================================= -->
+<!-- ========================================= -->
+
+				<div class="alert_block body_chocolate_inner" id="occupied_block">
+					<!-- рамка -->
+					<div class="wrap_inner_border padding_type_1">
+						<div class="inner_border">
+							<span class="top"></span>
+							<span class="bottom"></span>
+						</div>
+
+						<p class="name_block"><span>К сожалению,</span> этот аккаунт уже участвует в этапе. Зови друзей участвовать в проекте</p>
+
+						<p class="bold_text">Поделиться проектом:</p>
+						<div class="social_block">
+							<a class="social_1" href="#">
+								<i class="fa fa-vk" aria-hidden="true"></i>
+							</a>
+							<a class="social_1" href="#">
+								<i class="fa fa-facebook" aria-hidden="true"></i>
+							</a>
+							<a class="social_1" href="#">
+								<i class="fa fa-odnoklassniki" aria-hidden="true"></i>
+							</a>
+						</div>
+
+
+					</div>
+					<!-- wrap_inner_border -->
+					<div class="center">
+						<a class="button_2" href="#">Вернуться к выбору вкуса</a>
+					</div>
+				</div>
+				<!-- occupied_block -->
+
+<!-- ========================================= -->
+<!-- ========================================= -->
+			
+				<div class="alert_block body_chocolate_inner" id="congratulation_block_1">
+					<!-- рамка -->
+					<div class="wrap_inner_border padding_type_1">
+						<div class="inner_border">
+							<span class="top"></span>
+							<span class="bottom"></span>
+						</div>
+
+						<p class="name_block"><span>Поздравляем!</span> Ты участвуешь в конкурсе!</p>
+
+						<p class="light_text">Оставайся с нами на связи и узнай больше о других конкурсах Ritter Sport:</p>
+
+						<div class="social_block">
+							<a class="social_1" href="#">
+								<i class="fa fa-vk" aria-hidden="true"></i>
+							</a>
+							<a class="social_1" href="#">
+								<img src="img/insta_icon.svg" alt="img">
+							</a>
+						</div>
+
+
+					</div>
+					<!-- wrap_inner_border -->
+					<div class="center">
+						<a class="button_2" href="#">Смотреть другие серии “Орла и Решки”</a>
+					</div>
+				</div>
+				<!-- occupied_block -->
+				
+
+<!-- ========================================= -->
+<!-- ========================================= -->
+
+
+				<div class="alert_block two body_chocolate_inner" id="congratulation_block_2">
+					<!-- рамка -->
+					<div class="wrap_inner_border padding_type_1">
+						<div class="inner_border">
+							<span class="top"></span>
+							<span class="bottom"></span>
+						</div>
+
+
+						<div class="alert_img">
+							<img src="img/bag_choco.svg" alt="img">
+						</div>
+						<p class="name_block"><span>Поздравляем!</span> Ты прошел все вопросы викторины!</p>
+
+						<p class="light_text">У нас отличная новость: здесь скучно тебе точно не будет! Смело планируй маршрут и открывай море новых впечатлений вместе с Ritter Sport. Поделись проектом с друзьями и участвуй в розыгрыше призов. Удачи!</p>
+
+						<div class="social_block">
+							<a class="social_1" href="#">
+								<i class="fa fa-vk" aria-hidden="true"></i>
+							</a>
+							<a class="social_1" href="#">
+								<i class="fa fa-facebook" aria-hidden="true"></i>
+							</a>
+							<a class="social_1" href="#">
+								<i class="fa fa-odnoklassniki" aria-hidden="true"></i>
+							</a>
+						</div>
+
+
+					</div>
+					<!-- wrap_inner_border -->
+					<div class="center">
+						<a class="button_2" href="#">Смотреть другие серии “Орла и Решки”</a>
+					</div>
+				</div>
+				<!-- occupied_block -->
+
+
+<!-- ========================================= -->
+<!-- ========================================= -->
+
+
+
+
+			</div>
+			<!-- body_chocolate -->
+		</div>
+		<!-- body_chocolate_wrap -->
+
+		<!-- <div class="push"></div> -->
+	</div>
+	<!-- wrapper -->
+
+
+
+<!-- 
+для открытия нужного блока , элемент на который мы кликаем должен иметь класс show_block
+и атрибут data-id в котором прописывается id блока который будет открыт
+
+сам механизм заключается в передаче id блока, который мы хотим открыть в функцию change_block(id) 
+ -->
+ <div class="qqq">
+ 	<!-- всплывающая форма для "нет ответа" работает по такому же принципу только используется функция show_popup(data-flag)
+	и вместо id подставляется атрибут data-flag формы 
+ 	-->
+ 	<button class="open_form" data-form="not_answer">11111111</button>
+	<button class="show_block" data-id="test_block">test_block</button>
+	<button class="show_block" data-id="autorization_block">autorization_block</button>
+	<button class="show_block" data-id="occupied_block">alert_block_1</button>
+	<button class="show_block" data-id="congratulation_block_1">alert_block_2</button>
+	<button class="show_block" data-id="congratulation_block_2">alert_block_3</button>
+
+</div>
+
+	<!-- <button class="button1 open_form" data-form="1">Тест попапа</button> -->
+
+
+
+	<div class="popup_bg">
+		<div class="not_answer popup_block style_1" data-flag="not_answer">
+			<img class="close_popup" src="img/close_middle.svg" alt="close">
+			<div class="wrap_inner_border">
+				<div class="inner_border">
+					<span class="top"></span>
+					<span class="bottom"></span>
+				</div>
+
+				<div class="not_answer_content">
+					<p class="name">Не можешь определится с ответом?</p>
+					<p class="anons">Смотри подсказку здесь!</p>
+				</div>
+				<!-- not_answer_content -->
+				<div class="not_answer_video">
+					<div class="video_wrap">
+						<iframe id="video_player" width="720" height="405" src="//rutube.ru/play/embed/11982280?quality=1&platform=someplatform" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowfullscreen></iframe>
+					</div>
+					<div class="video_info">
+						<div class="video_content">
+							<p class="name">Орел и Решка: Перезагрузка</p>
+							<p class="desc"><span>США, Лос-Анджелес</span> 14 сезон</p>
+							<div class="video_img">
+								<img src="img/chocolate_1.png" alt="img">
+							</div>
+						</div>
+						
+					</div>
+				</div>
+				<!-- not_answer_video -->
+				
+			</div>
+			<!-- wrap_inner_border -->
+
+		</div>
+		<!-- popup_block -->
+
+		<!-- <form class="popup_block style_2" data-fag="2">
+			<div class="popup_bg_exit"><i class="fa fa-times" aria-hidden="true"></i></div>
+						
+		</form> -->
+
+		
+	</div>
+	<!-- popup_bg -->
+
+
+
+
+
+
+
+
+
+
+
+
+	<script src="js/libs.min.js"></script>
+	<script src="js/common.js"></script>
+
+
+	<script>
+		window.onload = function (){
+			$(".wrapper").css("opacity","1");
+		}
+	</script>
+
+</body>
+</html>
